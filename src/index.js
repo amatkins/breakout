@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Controller from './controller';
+import './breakout.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const controller = new Controller([
+  { bricks: [{ size: 2, canBreak: true }, { size: 2, canBreak: true }, { size: 2, canBreak: true }, { size: 2, canBreak: true }], life: 3, colors: ["green", "yellow", "red"] },
+  { bricks: [{ size: 1, canBreak: true }, { size: 2, canBreak: true }, { size: 2, canBreak: true }, { size: 2, canBreak: true }, { size: 1, canBreak: true }], life: 2, colors: ["green", "yellow"] },
+  { bricks: [{ size: 2, canBreak: true }, { size: 2, canBreak: true }, { size: 2, canBreak: true }, { size: 2, canBreak: true }], life: 1, colors: ["green"] }
+]);
