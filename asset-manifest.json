@@ -1,0 +1,11 @@
+{
+  "main.css": "static/css/main.69cc7d6f.css",
+  "main.css.map": "static/css/main.69cc7d6f.css.map",
+  "main.js": "static/js/main.96c5ab6d.js",
+  "main.js.map": "static/js/main.96c5ab6d.js.map",
+  "static\\media\\break.wav": "static/media/break.77f013d7.wav",
+  "static\\media\\crack.wav": "static/media/crack.88b2bf9e.wav",
+  "static\\media\\death.wav": "static/media/death.9a287b87.wav",
+  "static\\media\\paddle_bounce.wav": "static/media/paddle_bounce.52248a6c.wav",
+  "static\\media\\wall_bounce.wav": "static/media/wall_bounce.3416f75d.wav"
+}
